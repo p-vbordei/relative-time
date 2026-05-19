@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/relative-time/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/relative-time/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/%40p-vbordei%2Frelative-time.svg)](https://www.npmjs.com/package/@p-vbordei/relative-time)
+[![downloads](https://img.shields.io/npm/dm/%40p-vbordei%2Frelative-time.svg)](https://www.npmjs.com/package/@p-vbordei/relative-time)
+[![bundle](https://img.shields.io/bundlejs/size/%40p-vbordei%2Frelative-time)](https://bundlejs.com/?q=%40p-vbordei%2Frelative-time)
+
 Format dates as relative phrases — *"2 hours ago"*, *"in 3 days"*, *"yesterday"* — with smart unit selection. Wraps `Intl.RelativeTimeFormat`, so all locales work out of the box.
 
 ```ts
