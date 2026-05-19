@@ -1,6 +1,6 @@
 {
   "name": "@p-vbordei/relative-time",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Format dates as relative phrases (\"2 hours ago\", \"in 3 days\") with smart unit selection. Wraps Intl.RelativeTimeFormat. Zero dependencies.",
   "keywords": [
     "relative",
