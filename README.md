@@ -1,5 +1,7 @@
 # relative-time
 
+[![ci](https://github.com/p-vbordei/relative-time/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/relative-time/actions/workflows/ci.yml)
+
 Format dates as relative phrases — *"2 hours ago"*, *"in 3 days"*, *"yesterday"* — with smart unit selection. Wraps `Intl.RelativeTimeFormat`, so all locales work out of the box.
 
 ```ts
