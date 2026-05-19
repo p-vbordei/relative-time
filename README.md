@@ -5,7 +5,7 @@
 Format dates as relative phrases — *"2 hours ago"*, *"in 3 days"*, *"yesterday"* — with smart unit selection. Wraps `Intl.RelativeTimeFormat`, so all locales work out of the box.
 
 ```ts
-import { format, decompose } from "relative-time";
+import { format, decompose } from "@p-vbordei/relative-time";
 
 format(Date.now() - 60_000)                       // "1 minute ago"
 format(Date.now() + 3_600_000)                    // "in 1 hour"
@@ -23,7 +23,7 @@ format(now - 86_400_000, undefined, { locale: "ro" })  // "ieri"
 ## Install
 
 ```sh
-npm install relative-time
+npm install @p-vbordei/relative-time
 ```
 
 ## API
